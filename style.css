@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #607bf6, #7549a0);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Circular Image */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Name */
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+
+/* Card Sections */
+.card {
+  background: white;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #1e40af;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #e0e7ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.gallery p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e5e7eb;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
