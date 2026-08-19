@@ -3,87 +3,1164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iswarya T | Portfolio</title>
+
+  <title>Iswarya T | Full Stack Developer Portfolio</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Iswarya T, Computer Science Engineering student and aspiring software developer."
+  >
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
 </head>
+
 <body>
 
-  <header class="hero">
-  <div class="profile-container">
-    <img src="WhatsApp Image 2026-01-31 at 5.02.08 PM.png" alt="Iswarya T" class="profile-pic">
-    <h1>Iswarya T</h1>
-    <p>Computer Science Engineering Student</p>
-  </div>
-</header>
+  <!-- ================= NAVBAR ================= -->
 
-  <section class="card">
-    <h2>About Me</h2>
-    <p>
-      I am a 3rd year Computer Science Engineering student with strong fundamentals
-      in software engineering. I have basic knowledge of Python, Java, SQL, MySQL,
-      MongoDB, and cloud computing. I am a quick learner and actively participate
-      in online workshops and self-learning programs.
-    </p>
-  </section>
+  <header class="navbar">
+    <div class="nav-container">
 
-  <section class="card">
-    <h2>Basic Skills</h2>
-    <div class="skills">
-      <span>Python</span>
-      <span>Java</span>
-      <span>MySQL</span>
-      <span>MongoDB</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Cloud Computing</span>
+      <a href="#home" class="logo">
+        Iswarya<span>.</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+          ☾
+        </button>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Open menu">
+          ☰
+        </button>
+      </div>
+
     </div>
-  </section>
+  </header>
 
-  <section class="card">
-    <h2>Certifications</h2>
-    <div class="gallery">
-      <div>
-        <img src="WhatsApp Image 2026-01-31 at 6.42.28 PM.jpeg" alt="MySQL Certificate">
-        <p>7-Day Self-Learning Internship on MySQL – Artifai Tech</p>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-bg-circle circle-one"></div>
+      <div class="hero-bg-circle circle-two"></div>
+
+      <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+          <p class="hero-small-text">
+            HELLO, I'M
+          </p>
+
+          <h1>
+            Iswarya <span>T.</span>
+          </h1>
+
+          <h2>
+            Computer Science Engineering Student
+            <br>
+            & Aspiring Software Developer
+          </h2>
+
+          <p class="hero-description">
+            I enjoy building practical web applications, learning modern
+            technologies, and turning ideas into simple and useful digital
+            solutions.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <span>↗</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+            </a>
+
+          </div>
+
+          <div class="hero-links">
+
+            <a
+              href="https://github.com/Iswarya2006"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <span>•</span>
+
+            <a
+              href="https://www.linkedin.com/in/iswarya-tirunavukkarasu-1b4579378"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image-wrapper reveal">
+
+          <div class="image-decoration"></div>
+
+          <div class="profile-card">
+
+            <img
+              src="Profile Picture.jpg"
+              alt="Iswarya T"
+              class="profile-image"
+            >
+
+            <div class="profile-status">
+              <span class="status-dot"></span>
+              Open to opportunities
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-      <div>
-        <img src="WhatsApp Image 2026-01-31 at 6.42.27 PM.jpeg" alt="FSD Certificate">
-        <p>30-Day Full Stack Development Masterclass – NoviTech</p>
+
+      <div class="scroll-indicator">
+        <span></span>
+        Scroll to explore
       </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section about-section" id="about">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">ABOUT ME</p>
+
+          <h2>
+            Building skills through
+            <span>practice & curiosity.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="about-text reveal">
+
+            <p class="lead">
+              I am a Computer Science Engineering student with a strong
+              interest in software development and full-stack web technologies.
+            </p>
+
+            <p>
+              My learning journey has been focused on developing practical
+              solutions using technologies such as HTML, CSS, JavaScript,
+              React, Node.js, Express.js, SQL, MySQL and MongoDB.
+            </p>
+
+            <p>
+              I enjoy learning by building projects, participating in
+              technical workshops, and gaining real-world exposure through
+              internships. I am a quick learner who likes solving problems
+              and continuously improving my technical skills.
+            </p>
+
+            <div class="about-info">
+
+              <div>
+                <strong>Education</strong>
+                <span>B.E. Computer Science Engineering</span>
+              </div>
+
+              <div>
+                <strong>College</strong>
+                <span>Arunai Engineering College</span>
+              </div>
+
+              <div>
+                <strong>GPA</strong>
+                <span>9.36</span>
+              </div>
+
+              <div>
+                <strong>Location</strong>
+                <span>Tiruvannamalai, Tamil Nadu</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-highlight reveal">
+
+            <div class="quote-mark">“</div>
+
+            <p>
+              Learning something new, building something useful,
+              and improving one step at a time.
+            </p>
+
+            <div class="highlight-line"></div>
+
+            <span>My approach to technology</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="section skills-section" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">TECHNICAL SKILLS</p>
+
+          <h2>
+            Tools I use to
+            <span>build solutions.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card reveal">
+
+            <div class="skill-number">01</div>
+
+            <h3>Web Development</h3>
+
+            <p>
+              Building responsive and user-friendly web interfaces
+              with modern frontend technologies.
+            </p>
+
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+            </div>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-number">02</div>
+
+            <h3>Backend Development</h3>
+
+            <p>
+              Developing server-side applications and REST APIs
+              with JavaScript-based technologies.
+            </p>
+
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>REST APIs</span>
+            </div>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-number">03</div>
+
+            <h3>Databases</h3>
+
+            <p>
+              Working with relational and NoSQL databases for
+              storing, querying and managing application data.
+            </p>
+
+            <div class="skill-tags">
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-number">04</div>
+
+            <h3>Programming</h3>
+
+            <p>
+              Developing programming fundamentals and using logical
+              problem-solving to build practical applications.
+            </p>
+
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>Java</span>
+              <span>JavaScript</span>
+            </div>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-number">05</div>
+
+            <h3>Professional Skills</h3>
+
+            <p>
+              Comfortable working independently and collaboratively
+              while continuously learning new technologies.
+            </p>
+
+            <div class="skill-tags">
+              <span>Problem Solving</span>
+              <span>Teamwork</span>
+              <span>Quick Learner</span>
+            </div>
+
+          </div>
+
+
+          <div class="skill-card skill-card-accent reveal">
+
+            <div class="skill-number">06</div>
+
+            <h3>Currently Learning</h3>
+
+            <p>
+              Continuously exploring new technologies and improving
+              my understanding through projects and self-learning.
+            </p>
+
+            <div class="skill-tags">
+              <span>Full Stack</span>
+              <span>Cloud</span>
+              <span>Modern Web</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE TIMELINE ================= -->
+
+    <section class="section experience-section" id="experience">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">EXPERIENCE & JOURNEY</p>
+
+          <h2>
+            My learning
+            <span>timeline.</span>
+          </h2>
+
+          <p class="section-description">
+            A quick look at the academic and professional experiences
+            that have shaped my development journey.
+          </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+          <!-- INTERNSHIP -->
+
+          <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-date">
+              JUN — JUL 2026
+            </div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-type">
+                INTERNSHIP
+              </span>
+
+              <h3>
+                Full Stack Web Development Intern
+              </h3>
+
+              <h4>
+                The Ramco Cements Limited
+              </h4>
+
+              <p>
+                Worked on an
+                <strong>
+                  AI Daily Load Order & Delivery Management System
+                </strong>
+                using React.js, Node.js, Express.js, MySQL and JavaScript.
+              </p>
+
+              <div class="timeline-tags">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>REST APIs</span>
+                <span>AI Integration</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- FSD -->
+
+          <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-date">
+              2025 — 2026
+            </div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-type">
+                CERTIFICATION
+              </span>
+
+              <h3>
+                30-Day Full Stack Development Masterclass
+              </h3>
+
+              <h4>
+                NoviTech
+              </h4>
+
+              <p>
+                Built a foundation in full-stack development and
+                strengthened knowledge of HTML, CSS, JavaScript,
+                React, Node.js, Express and MongoDB.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- MYSQL -->
+
+          <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-date">
+              2025
+            </div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-type">
+                CERTIFICATION
+              </span>
+
+              <h3>
+                7-Day MySQL Internship
+              </h3>
+
+              <h4>
+                Artifai Tech
+              </h4>
+
+              <p>
+                Learned SQL, database fundamentals and MySQL
+                queries through practical learning.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- EDUCATION -->
+
+          <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-date">
+              2023 — 2027
+            </div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-type">
+                EDUCATION
+              </span>
+
+              <h3>
+                Bachelor of Engineering — Computer Science
+              </h3>
+
+              <h4>
+                Arunai Engineering College, Tiruvannamalai
+              </h4>
+
+              <p>
+                Currently pursuing B.E. in Computer Science Engineering,
+                developing strong foundations in programming, databases,
+                web development and software engineering.
+              </p>
+
+              <div class="gpa-badge">
+                GPA <strong>9.36</strong>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="section projects-section" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">SELECTED PROJECTS</p>
+
+          <h2>
+            Things I've
+            <span>built.</span>
+          </h2>
+
+          <p class="section-description">
+            A selection of projects created while learning and
+            applying software development concepts.
+          </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+          <!-- PROJECT 1 -->
+
+          <article class="project-card featured-project reveal">
+
+            <div class="project-top">
+
+              <span class="project-index">
+                01
+              </span>
+
+              <span class="project-category">
+                FULL STACK
+              </span>
+
+            </div>
+
+            <h3>
+              Mood-Based Task Planner
+            </h3>
+
+            <p>
+              A full-stack task planning application that suggests
+              tasks based on the user's mood. The project helped
+              strengthen my understanding of frontend-backend
+              integration and database workflows.
+            </p>
+
+            <div class="project-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </div>
+
+            <div class="project-footer">
+
+              <span>
+                Full Stack Development · 2025–2026
+              </span>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 2 -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span class="project-index">
+                02
+              </span>
+
+              <span class="project-category">
+                WEB APP
+              </span>
+
+            </div>
+
+            <h3>
+              To-Do List Application
+            </h3>
+
+            <p>
+              A task management application with add, update and
+              delete functionality, designed with a clean interface
+              and focused on core CRUD operations.
+            </p>
+
+            <div class="project-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="project-footer">
+              <span>CRUD Application</span>
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 3 -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span class="project-index">
+                03
+              </span>
+
+              <span class="project-category">
+                PERSONAL
+              </span>
+
+            </div>
+
+            <h3>
+              Portfolio Website
+            </h3>
+
+            <p>
+              A responsive personal portfolio designed to showcase
+              my projects, technical skills, learning journey,
+              certifications and professional experience.
+            </p>
+
+            <div class="project-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+            </div>
+
+            <div class="project-footer">
+
+              <a href="#home">
+                You're here ↗
+              </a>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section class="section certifications-section" id="certifications">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">CERTIFICATIONS</p>
+
+          <h2>
+            Learning beyond
+            <span>the classroom.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="certifications-list">
+
+
+          <div class="certificate-card reveal">
+
+            <div class="certificate-number">
+              01
+            </div>
+
+            <div class="certificate-info">
+
+              <span>2026</span>
+
+              <h3>
+                Internship Certificate
+              </h3>
+
+              <p>
+                The Ramco Cements Limited
+              </p>
+
+              <small>
+                Full Stack Web Development Internship
+              </small>
+
+            </div>
+
+            <div class="certificate-icon">
+              ↗
+            </div>
+
+          </div>
+
+
+          <div class="certificate-card reveal">
+
+            <div class="certificate-number">
+              02
+            </div>
+
+            <div class="certificate-info">
+
+              <span>2025</span>
+
+              <h3>
+                7-Day Self-Learning Internship on MySQL
+              </h3>
+
+              <p>
+                Artifai Tech
+              </p>
+
+              <small>
+                SQL, database fundamentals and MySQL queries
+              </small>
+
+            </div>
+
+            <div class="certificate-icon">
+              ↗
+            </div>
+
+          </div>
+
+
+          <div class="certificate-card reveal">
+
+            <div class="certificate-number">
+              03
+            </div>
+
+            <div class="certificate-info">
+
+              <span>2025 — 2026</span>
+
+              <h3>
+                30-Day Full Stack Development Masterclass
+              </h3>
+
+              <p>
+                NoviTech
+              </p>
+
+              <small>
+                HTML, CSS, JavaScript, React, Node.js,
+                Express and MongoDB
+              </small>
+
+            </div>
+
+            <div class="certificate-icon">
+              ↗
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATE GALLERY ================= -->
+
+    <section class="section certificate-gallery-section">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">CERTIFICATE GALLERY</p>
+
+          <h2>
+            A few milestones
+            <span>along the way.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="certificate-gallery">
+
+
+          <div class="certificate-image-card reveal">
+
+            <div class="certificate-image-wrapper">
+
+              <img
+                src="WhatsApp Image 2026-01-31 at 6.42.28 PM.jpeg"
+                alt="Artifai Tech MySQL Certificate"
+              >
+
+            </div>
+
+            <div class="certificate-caption">
+
+              <strong>MySQL Internship</strong>
+
+              <span>
+                Artifai Tech · 2025
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="certificate-image-card reveal">
+
+            <div class="certificate-image-wrapper">
+
+              <img
+                src="WhatsApp Image 2026-01-31 at 6.42.27 PM.jpeg"
+                alt="NoviTech Full Stack Certificate"
+              >
+
+            </div>
+
+            <div class="certificate-caption">
+
+              <strong>Full Stack Development</strong>
+
+              <span>
+                NoviTech · 2025–2026
+              </span>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= WORKSHOPS ================= -->
+
+    <section class="section workshops-section">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">WORKSHOPS & LEARNING</p>
+
+          <h2>
+            Always
+            <span>learning.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="workshop-grid">
+
+
+          <div class="workshop-card reveal">
+
+            <span class="workshop-number">01</span>
+
+            <h3>
+              Technical Workshop
+            </h3>
+
+            <p>
+              Participated in online technical learning sessions
+              to strengthen practical knowledge and explore
+              emerging technologies.
+            </p>
+
+          </div>
+
+
+          <div class="workshop-card reveal">
+
+            <span class="workshop-number">02</span>
+
+            <h3>
+              Practical Learning
+            </h3>
+
+            <p>
+              Continued learning through hands-on exercises,
+              online resources and self-learning programs.
+            </p>
+
+          </div>
+
+
+          <div class="workshop-card reveal">
+
+            <span class="workshop-number">03</span>
+
+            <h3>
+              BootCamp
+            </h3>
+
+            <p>
+              Participated in bootcamp-based learning activities
+              focused on developing technical and practical skills.
+            </p>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= LANGUAGES ================= -->
+
+    <section class="languages-strip">
+
+      <div class="container languages-container">
+
+        <div>
+          <span>LANGUAGES</span>
+          <strong>English</strong>
+          <small>Intermediate</small>
+        </div>
+
+        <div>
+          <span></span>
+          <strong>Hindi</strong>
+          <small>Elemental</small>
+        </div>
+
+        <div>
+          <span></span>
+          <strong>Tamil</strong>
+          <small>Native</small>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact-section" id="contact">
+
+      <div class="container">
+
+        <div class="contact-card reveal">
+
+          <div class="contact-content">
+
+            <p class="section-label">
+              LET'S CONNECT
+            </p>
+
+            <h2>
+              Have an opportunity
+              <span>in mind?</span>
+            </h2>
+
+            <p>
+              I'm interested in entry-level software development
+              opportunities where I can apply my skills, learn from
+              real-world projects and contribute to a growing team.
+            </p>
+
+            <a
+              href="mailto:iswaryaarasu20@gmail.com"
+              class="email-link"
+            >
+              iswaryaarasu20@gmail.com
+              <span>↗</span>
+            </a>
+
+          </div>
+
+
+          <div class="contact-links">
+
+            <a
+              href="https://github.com/Iswarya2006"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+            >
+              <span>GitHub</span>
+              <strong>↗</strong>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/iswarya-tirunavukkarasu-1b4579378"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+            >
+              <span>LinkedIn</span>
+              <strong>↗</strong>
+            </a>
+
+            <a
+              href="mailto:iswaryaarasu20@gmail.com"
+              class="social-link"
+            >
+              <span>Email</span>
+              <strong>↗</strong>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div>
+        <a href="#home" class="footer-logo">
+          Iswarya<span>.</span>
+        </a>
+
+        <p>
+          Computer Science Engineering Student
+        </p>
+      </div>
+
+      <div class="footer-right">
+
+        <p>
+          © 2026 Iswarya T
+        </p>
+
+        <a href="#home">
+          Back to top ↑
+        </a>
+
+      </div>
+
     </div>
-  </section>
 
-  <section class="card">
-    <h2>Workshops Attended</h2>
-    <div class="gallery">
-      <div>
-        <img src="WhatsApp Image 2026-01-31 at 6.43.37 PM.jpeg" alt="Workshop">
-        <p>Online Technical Workshop</p>
-      </div>
-      <div>
-        <img src="WhatsApp Image 2026-01-31 at 6.43.40 PM.jpeg" alt="Workshop">
-        <p>Practical learning</p>
-      </div>
-      <div>
-        <img src="WhatsApp Image 2026-01-31 at 6.43.43 PM.jpeg" alt="Workshop">
-        <p>BooTCamp</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="card">
-    <h2>Contact</h2>
-    <p>Email: iswaryaarasu20@gmail.com</p><br/>
-    <p>GitHub: <a href="https://github.com/Iswarya2006" target="_blank">github.com/Iswarya2006</a></p><br/>
-    <p>LinkedIn: <a href="https://linkedin.com/in/iswarya-tirunavukkarasu-1b4579378" target="_blank">linkedin.com/in/iswarya-tirunavukkarasu-1b4579378</a></p><br/>
-    <p>Portfolio: <strong>This Website</strong></p><br/>
-  </section>
-
-  <footer>
-    <p>© 2026 Iswarya T</p>
   </footer>
 
-</body>
 
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="script.js"></script>
+
+</body>
 </html>
